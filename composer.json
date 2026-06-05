@@ -1,0 +1,11 @@
+{
+    "name": "jb-boin/identity_domain_restrict",
+    "type": "roundcube-plugin",
+    "description": "Restricts creation/update of Roundcube identities to the domain of the logged-in user's e-mail address.",
+    "homepage": "https://github.com/jb-boin/roundcube-plugin-identity_domain_restrict",
+    "license": "GPL-3.0-or-later",
+    "require": {
+        "php": ">=7.3",
+        "roundcube/plugin-installer": ">=0.1.6"
+    }
+}

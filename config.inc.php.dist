@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * Configuration for the identity_domain_restrict plugin.
+ * Copy this file to config.inc.php to customize.
+ */
+
+// Allow identities on the domain of the logged-in user's login / e-mail
+// address. Recommended: true.
+$config['identity_domain_restrict_use_login_domain'] = true;
+
+// Extra domains allowed for ALL users (aliases, secondary domains...).
+// Leave [] if not needed.
+// Example: $config['identity_domain_restrict_allowed'] = ['mydomain.com', 'myotherdomain.net'];
+$config['identity_domain_restrict_allowed'] = [];
